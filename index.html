@@ -12,9 +12,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
-
+  <link rel="icon" type="image/png" href="images/nomis_favicon.png" />
   <style>
-    h1, h2, h3, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6, .poppins {
       font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       font-weight: 700;
     }
@@ -25,11 +25,13 @@
   <header class="border-b border-slate-200 bg-white/80 backdrop-blur">
     <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
       <div class="flex items-center gap-2">
-        <div class="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-sm font-semibold text-white">
-          WS
-        </div>
-        <span class="text-sm font-semibold tracking-tight text-slate-800">
-          Crée ton website en 2 jours
+        <img
+            src="images/logo.png"
+            alt="Logo Candoo Formations"
+            class="h-8 object-cover"
+          />
+        <span class="tracking-tight text-slate-800 poppins">
+          Candoo Formations
         </span>
       </div>
       <a href="#inscription" class="hidden rounded-full bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 sm:inline-flex">
@@ -56,7 +58,7 @@
             sans y passer des semaines, ni dépendre d’une agence.
           </p>
 
-          <div class="mt-8 flex flex-col gap-3 sm:flex-row items-center justify-center">
+          <div class="mt-8 flex flex-col gap-3 items-center justify-center">
             <a href="#inscription" class="inline-flex items-center justify-center rounded-full bg-blue-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-500/30 transition hover:bg-blue-600">
               Je réserve ma place
             </a>
@@ -106,10 +108,14 @@
             Si tu es coach ou formateur et que tu souhaites avoir un site pro et clair que tu gères toi-même,
             alors cette formation est faite pour toi.
           </p>
-          <p class="mt-3 text-sm text-slate-600 sm:text-base">
-            En 2025, avec les différentes IA, tu n’as plus besoin d’être développeur pour créer ton site web
-            et être autonome dessus.
-          </p>
+          <div class="mt-4 flex items-start gap-3 rounded-xl border border-slate-200 bg-slate-100 p-4">
+            <div class="text-2xl">⚡️</div>
+            <p class="text-sm text-slate-700 sm:text-base">
+              <strong>En 2025, avec les différentes IA, tu n’as plus besoin d’être développeur</strong> pour créer ton site web
+              et être entièrement autonome dessus.
+            </p>
+          </div>
+
         </div>
       </div>
     </div>
@@ -190,28 +196,25 @@
     <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <h2 class="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
-          Ils ont créé leur site en 2 jours
+          Quelques références
         </h2>
-        <p class="text-xs text-slate-500">
-          Tu pourras remplacer ces exemples par de vrais témoignages clients.
-        </p>
       </div>
 
       <div class="mt-8 grid gap-6 md:grid-cols-2">
         <figure class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
           <blockquote class="text-sm text-slate-700">
-            “Je repoussais la création de mon site depuis 8 mois. En 2 jours c’était en ligne, et j’ai booké 3 appels découverte la semaine suivante.”
+            “Vincent a un expertise très forte sur la tech, il connait tous les rouages qui font un bon site autant sur le fond que sur la forme.”
           </blockquote>
           <figcaption class="mt-4 text-xs font-medium text-slate-900">
-            Prénom — Coach business
+            Julien Bodin — Coach et Co-fondateur du <a target="_blank" class="underline" href="https://www.lepharedumanager.com">pharedumanger.com</a>
           </figcaption>
         </figure>
         <figure class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
           <blockquote class="text-sm text-slate-700">
-            “Je pensais que ce serait trop technique. En fait, en suivant la méthode, ça s’est fait étape par étape. Aujourd’hui je suis autonome.”
+            “Je recommande cette formation à tous les coachs qui souhaitent avoir un site pro et claire.”
           </blockquote>
           <figcaption class="mt-4 text-xs font-medium text-slate-900">
-            Prénom — Formatrice en ligne
+            Yves Trocheris — Co-fondateur de <a target="_blank" class="underline" href="https://www.lepharedumanager.com">Memepascap.fr</a>
           </figcaption>
         </figure>
       </div>
@@ -230,22 +233,22 @@
             Investissement pour la formation
           </h2>
           <p class="mt-4 text-sm text-slate-200 sm:text-base">
-            <span class="font-semibold">Crée ton website en 2 jours</span> – une formation action pour coachs, formateurs et consultants
+            <span class="font-semibold">Crée ton website en 2 jours</span> – une formation pour coachs, formateurs et consultants
             qui veulent enfin une présence en ligne à la hauteur de leur expertise.
           </p>
 
           <div class="mt-6 space-y-3 text-sm text-slate-200">
-            <p>💰 <strong>Tarif :</strong> XXX € (possibilité de paiement en 2 ou 3 fois)</p>
+            <p>💰 <strong>Tarif :</strong> 600 €</p>
             <p>🎁 <strong>Bonus inclus :</strong></p>
             <ul class="ml-4 list-disc space-y-1">
               <li>Template de page d’accueil optimisée pour la conversion</li>
-              <li>Guide “Les 10 sections indispensables d’un site qui vend”</li>
-              <li>Modèle de page “À propos” spécial coachs / formateurs</li>
+              <li>Guide “Les sections indispensables sur la page d'accueil d’un site”</li>
+              <li>Des prompts chatGPT pour générer des pages optimisées</li>
             </ul>
           </div>
 
           <p class="mt-6 text-xs text-slate-300">
-            Si après la première journée tu estimes que la formation n’est pas pour toi,
+            Si après la première demi-journée tu estimes que la formation n’est pas pour toi,
             tu peux demander un <strong>remboursement complet</strong>.
           </p>
         </div>
@@ -289,13 +292,12 @@
             Qui anime cette formation ?
           </h2>
           <p class="mt-4 text-sm text-slate-600 sm:text-base">
-            Je m’appelle [Ton prénom], je crée des sites pour des coachs, formateurs et créateurs de contenu depuis [X] ans.
-            J’ai vu trop de personnes avec des accompagnements de grande qualité… bloquées parce qu’elles n’avaient pas une
-            présence en ligne à la hauteur.
+            Je m’appelle Vincent, je crée des sites pour des coachs, formateurs et créateurs de contenu depuis 10 ans.
+            <br><br>
+            J'ai co-fondé <a target="_blank" class="underline" href="https://www.simundia.com">Simundia</a>, qui fédère un réseau international de plus de 200 coachs et rend accessible le coaching en entreprise.
           </p>
           <p class="mt-3 text-sm text-slate-600 sm:text-base">
-            Cette formation est là pour te rendre <strong>autonome</strong> :
-            pas pour te transformer en développeur, mais pour que ton site ne soit plus jamais un frein à ton activité.
+            Mon objectif est de vous donner les clés pour être <strong>autonome avec les outils numériques et l'IA</strong>.
           </p>
         </div>
       </div>
@@ -309,55 +311,179 @@
         FAQ – Questions fréquentes
       </h2>
 
-      <div class="mt-8 space-y-6 text-sm text-slate-700 sm:text-base">
-        <div class="rounded-2xl border border-slate-200 bg-white p-5">
-          <h3 class="text-sm font-semibold text-slate-900">
-            Je ne suis pas du tout technique, est-ce que c’est pour moi ?
-          </h3>
-          <p class="mt-2 text-sm text-slate-700">
+      <div class="mt-8 space-y-4">
+        <!-- Question 1 -->
+        <div class="rounded-2xl border border-slate-200 bg-white">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between px-5 py-4 text-left"
+            data-faq-toggle
+          >
+            <span class="text-sm font-semibold text-slate-900 sm:text-base">
+              Je ne suis pas du tout technique, est-ce que c’est pour moi ?
+            </span>
+            <span
+              class="ml-4 inline-flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-slate-500 transition-transform duration-200"
+              data-faq-icon
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.17l3.71-3.94a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+              </svg>
+            </span>
+          </button>
+          <div class="px-5 pb-4 text-sm text-slate-700 sm:text-base hidden" data-faq-content>
             Oui. Tu suis les étapes, tu utilises les modèles, et je t’accompagne. Le but est justement de te simplifier la partie technique.
-          </p>
+          </div>
         </div>
 
-        <div class="rounded-2xl border border-slate-200 bg-white p-5">
-          <h3 class="text-sm font-semibold text-slate-900">
-            Est-ce que j’aurai vraiment un site fini en 2 jours ?
-          </h3>
-          <p class="mt-2 text-sm text-slate-700">
-            Oui, si tu viens avec un minimum prêt (photos, logo éventuel, idée de ton offre), tu repars avec un site en ligne, fonctionnel et présentable.
-          </p>
+        <!-- Question 2 -->
+        <div class="rounded-2xl border border-slate-200 bg-white">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between px-5 py-4 text-left"
+            data-faq-toggle
+          >
+            <span class="text-sm font-semibold text-slate-900 sm:text-base">
+              Est-ce que j’aurai vraiment un site fini en 2 jours ?
+            </span>
+            <span
+              class="ml-4 inline-flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-slate-500 transition-transform duration-200"
+              data-faq-icon
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.17l3.71-3.94a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+              </svg>
+            </span>
+          </button>
+          <div class="px-5 pb-4 text-sm text-slate-700 sm:text-base hidden" data-faq-content>
+            Un site n'est jamais vraiment fini, l'objectif c'est d'avoir une première bonne base pour que tu sois autonome à l'issue des deux jours.
+          </div>
         </div>
 
-        <div class="rounded-2xl border border-slate-200 bg-white p-5">
-          <h3 class="text-sm font-semibold text-slate-900">
-            Et si je n’ai pas encore d’offre parfaitement définie ?
-          </h3>
-          <p class="mt-2 text-sm text-slate-700">
+        <!-- Question 3 -->
+        <div class="rounded-2xl border border-slate-200 bg-white">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between px-5 py-4 text-left"
+            data-faq-toggle
+          >
+            <span class="text-sm font-semibold text-slate-900 sm:text-base">
+              Et si je n’ai pas encore d’offre parfaitement définie ?
+            </span>
+            <span
+              class="ml-4 inline-flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-slate-500 transition-transform duration-200"
+              data-faq-icon
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.17l3.71-3.94a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+              </svg>
+            </span>
+          </button>
+          <div class="px-5 pb-4 text-sm text-slate-700 sm:text-base hidden" data-faq-content>
             On partira de ce que tu as aujourd’hui pour créer une version claire et simple. Tu pourras toujours la faire évoluer ensuite.
-          </p>
+          </div>
         </div>
 
-        <div class="rounded-2xl border border-slate-200 bg-white p-5">
-          <h3 class="text-sm font-semibold text-slate-900">
-            Est-ce que je garde l’accès au contenu après la formation ?
-          </h3>
-          <p class="mt-2 text-sm text-slate-700">
+        <!-- Question 4 -->
+        <div class="rounded-2xl border border-slate-200 bg-white">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between px-5 py-4 text-left"
+            data-faq-toggle
+          >
+            <span class="text-sm font-semibold text-slate-900 sm:text-base">
+              Est-ce que je garde l’accès au contenu après la formation ?
+            </span>
+            <span
+              class="ml-4 inline-flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-slate-500 transition-transform duration-200"
+              data-faq-icon
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.17l3.71-3.94a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+              </svg>
+            </span>
+          </button>
+          <div class="px-5 pb-4 text-sm text-slate-700 sm:text-base hidden" data-faq-content>
             Oui, tu gardes les replays, les templates et les supports.
-          </p>
+          </div>
         </div>
 
-        <div class="rounded-2xl border border-slate-200 bg-white p-5">
-          <h3 class="text-sm font-semibold text-slate-900">
-            Combien de temps devrai-je consacrer en plus des 2 jours ?
-          </h3>
-          <p class="mt-2 text-sm text-slate-700">
+        <!-- Question 5 -->
+        <div class="rounded-2xl border border-slate-200 bg-white">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between px-5 py-4 text-left"
+            data-faq-toggle
+          >
+            <span class="text-sm font-semibold text-slate-900 sm:text-base">
+              Combien de temps devrai-je consacrer en plus des 2 jours ?
+            </span>
+            <span
+              class="ml-4 inline-flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-slate-500 transition-transform duration-200"
+              data-faq-icon
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.17l3.71-3.94a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+              </svg>
+            </span>
+          </button>
+          <div class="px-5 pb-4 text-sm text-slate-700 sm:text-base hidden" data-faq-content>
             Prévoyez un peu de temps en amont pour rassembler votre contenu (textes bruts, visuels)
             et éventuellement 1–2 heures après la formation pour peaufiner.
-          </p>
+          </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="rounded-2xl border border-slate-200 bg-white">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between px-5 py-4 text-left"
+            data-faq-toggle
+          >
+            <span class="text-sm font-semibold text-slate-900 sm:text-base">
+              Combien va me coûter mon site internet ?
+            </span>
+            <span
+              class="ml-4 inline-flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-slate-500 transition-transform duration-200"
+              data-faq-icon
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.17l3.71-3.94a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+              </svg>
+            </span>
+          </button>
+          <div class="px-5 pb-4 text-sm text-slate-700 sm:text-base hidden" data-faq-content>
+            La plupart du temps, l'hébergement sera toujours payant. Dans le cadre de cette formation, on utilisera Framer qui propose un abonnement à 15€ par mois.
+          </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="rounded-2xl border border-slate-200 bg-white">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between px-5 py-4 text-left"
+            data-faq-toggle
+          >
+            <span class="text-sm font-semibold text-slate-900 sm:text-base">
+              Est-ce financable par le CPF ?
+            </span>
+            <span
+              class="ml-4 inline-flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-slate-500 transition-transform duration-200"
+              data-faq-icon
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.17l3.71-3.94a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+              </svg>
+            </span>
+          </button>
+          <div class="px-5 pb-4 text-sm text-slate-700 sm:text-base hidden" data-faq-content>
+            Non malheureusement cette formation n'est pas financable par le CPF.
+          </div>
         </div>
       </div>
     </div>
   </section>
+
 
   <!-- FOOTER -->
   <footer class="border-t border-slate-200 bg-white">
@@ -369,5 +495,30 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggles = document.querySelectorAll('[data-faq-toggle]');
+
+      toggles.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const wrapper = btn.parentElement;
+          const content = wrapper.querySelector('[data-faq-content]');
+          const icon = btn.querySelector('[data-faq-icon]');
+
+          const isOpen = !content.classList.contains('hidden');
+
+          if (isOpen) {
+            content.classList.add('hidden');
+            icon.classList.remove('rotate-180');
+          } else {
+            content.classList.remove('hidden');
+            icon.classList.add('rotate-180');
+          }
+        });
+      });
+    });
+  </script>
+
 </body>
 </html>
